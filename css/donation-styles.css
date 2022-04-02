@@ -1,0 +1,9 @@
+.donation-box {
+  display: flex;
+  margin: 0 auto;
+}
+
+.requisites-info {
+  width: 700px;
+  margin-right: auto;
+}
