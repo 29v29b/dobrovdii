@@ -6,4 +6,27 @@
 .requisites-info {
   width: 700px;
   margin-right: auto;
+  padding: 40px 0px;
+}
+
+b {
+  display: block;
+  margin-bottom: 25px;
+  font-family: var(--logo-font);
+  font-size: 26px;
+}
+
+p { 
+  margin: 0 auto;
+margin-bottom: 25px;
+font-family: var(--main-font);
+font-weight: 300;
+font-size: 20px;
+line-height: 1.5;
+letter-spacing: 0.03em;
+}
+.card-number {
+  font-family: var(--main-font);
+  font-size: 24px;
+
 }
