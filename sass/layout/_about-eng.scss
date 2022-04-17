@@ -1,0 +1,27 @@
+.about-us p {
+    margin: 0 auto;
+    width: 1000px;
+    margin-bottom: 25px;
+    font-family: var(--logo-font);
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 1.5;
+    letter-spacing: 0.03em;
+}
+
+.about-us p:last-child {
+    margin: 0 auto;
+    width: 1000px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.1;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.details {
+    text-decoration: none;
+    font-weight: 700;
+    color: var(--accent-color);
+}

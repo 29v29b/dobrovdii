@@ -1,0 +1,24 @@
+.news-date {
+    color: var(--accent-color);
+}
+
+.info {
+    margin-bottom: 25px;
+    font-weight: 300;
+    line-height: 1.1;
+    letter-spacing: 0.03em;
+
+}
+
+.details-btn {
+    display: inline-block;
+    width: 75px;
+    border-radius: 50px;
+    padding: 5px;
+    text-align: center;
+    border: 2px var(--accent-color) solid;
+    color: var(--primary-text-color);
+    font-size: 12px;
+    text-decoration: none;
+    text-transform: uppercase;
+}

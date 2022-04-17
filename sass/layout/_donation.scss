@@ -1,0 +1,31 @@
+.donation {
+    background: var(--accent-color);
+}
+
+.donation .section-title {
+    margin-bottom: 50px;
+    color: #ffffff;
+}
+
+.donation .subtitle {
+    margin-bottom: 75px;
+    color: #ffffff;
+}
+
+.donation-btn {
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    border-radius: 50px;
+    padding: 10px 40px 10px 40px;
+    text-align: center;
+
+    background-color: #040814;
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+
+    border: none;
+    cursor: pointer;
+    
+}

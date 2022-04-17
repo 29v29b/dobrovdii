@@ -1,0 +1,51 @@
+.mail-link {
+    text-decoration: none;
+    font-weight: 700;
+    color: var(--primary-text-color);
+}
+
+.mail-link:hover,
+.mail-link:focus {
+    color: var(--accent-color);
+}
+
+.founder-box {
+    margin: 0 auto;
+    margin-top: 100px;
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+
+    overflow: hidden;
+}
+
+.founder-subtitle {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: var(--primary-font);
+    text-align: center;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.1;
+    letter-spacing: 0.03em;
+}
+
+.founder-position {
+    margin: 0 auto;
+    margin-bottom: 75px;
+    text-align: center;
+    font-weight: 300;
+    font-family: var(--primary-font);
+    color: #9c9c9c;
+}
+
+.documents-btn {
+    display: block;
+    margin: 0 auto;
+    width: 350px;
+    border-radius: 50px;
+    padding: 10px 40px 10px 40px;
+    text-align: center;
+
+}
+

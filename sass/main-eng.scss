@@ -1,0 +1,19 @@
+@import './utils/variables';
+@import './utils/visually-hidden';
+
+@import './base/common';
+@import './base/container';
+
+@import './components/button';
+@import './components/titles';
+@import './components/icons';
+
+@import './layout/header-eng';
+@import './layout/hero-eng';
+@import './layout/about-eng';
+@import './layout/events';
+@import './layout/news';
+@import './layout/donation';
+@import './layout/founder';
+@import './layout/footer';
+@import './layout/fond-doc';

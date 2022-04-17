@@ -1,0 +1,45 @@
+.footer {
+    padding: 50px 0px;
+    border-top: #ececec 1px solid;
+}
+
+#contacts {
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    color: var(--primary-text-color);
+    font-family: var(--primary-font);
+    font-weight: 700;
+}
+
+.address {
+    margin-bottom: 10px;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.footer-link {
+    display: inline-block;
+    margin-bottom: 10px;
+    font-weight: 300;
+    font-style: normal;
+    text-decoration: none;
+    color: var(--primary-text-color);
+}
+
+.footer-box {
+    display: flex;
+}
+
+.footer-info {
+    margin-right: auto;
+}
+
+.footer-join p {
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    color: var(--primary-text-color);
+}
+
+.actions {
+    display: flex;
+}
