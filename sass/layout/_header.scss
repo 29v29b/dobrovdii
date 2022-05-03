@@ -1,4 +1,5 @@
 .header {
+    position: relative;
     background: var(--background);
     border-bottom: #ececec 1px solid;
 }
@@ -40,18 +41,28 @@
 
 .logo-link {
     margin-right: 200px;
+    padding-top: 40px;
+    padding-bottom: 40px;
     text-transform: uppercase;
     color: var(--primary-text-color);
     font-family: var(--primary-font);
     font-weight: 700;
     text-decoration: none;
     align-items: center;
+    
+    @media screen and (min-width: 768px) {
+        margin-right: 450px;
+    }
+    @media screen and (min-width: 1200px) {
+        margin-right: 200px;
+    }
 }
 
 .main-nav,
 .main-nav nav {
     display: flex;
     align-items: center;
+    
 }
 
 .main-nav a {
@@ -60,8 +71,15 @@
 }
 
 .site-nav {
-    display: flex;
     margin-left: auto;
+
+    @media screen and (min-width: 480px) {
+        display: none;
+    }
+    
+    @media screen and (min-width: 1200px) {
+        display: flex;
+    }
 }
 
 .site-nav .item:not(:last-child) {
@@ -73,8 +91,14 @@
 }
 
 .language-list {
-    display: flex;
     margin-left: auto;
+    @media screen and (min-width: 480px) {
+        display: none;
+    }
+    
+    @media screen and (min-width: 1200px) {
+        display: flex;
+    }
 }
 
 .language-list .item:not(:last-child) {
