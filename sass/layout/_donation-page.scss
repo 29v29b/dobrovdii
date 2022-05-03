@@ -1,12 +1,32 @@
 .donation-box {
-    display: flex;
+    display: block;
     margin: 0 auto;
+
+    @media screen and (min-width: 768px) {
+        display: block;
+    }
+
+    @media screen and (min-width: 1200px) {
+        display: flex;
+        margin: 0 auto;
+    }
 }
 
 .requisites-info {
-    width: 700px;
+    width: 480px;
     margin-right: auto;
-    padding: 40px 0px;
+    
+
+    @media screen and (min-width: 768px) {
+        width: 700px;
+    }
+    
+    @media screen and (min-width: 1200px) {
+        margin: 0 auto;
+        width: 1000px;
+
+    }
+    
 }
 
 b {

@@ -29,5 +29,14 @@ body {
 }
 
 .section {
-    padding: 100px 0px 100px 0px;
+    padding: 50px 0px 50px 0px;
+
+    @media screen and (min-width: 768px) {
+        padding: 50px 0px 50px 0px;
+    }
+    
+    @media screen and (min-width: 1200px) {
+        padding: 100px 0px 100px 0px;
+    
+    }
 }
