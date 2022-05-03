@@ -19,22 +19,65 @@
     <header class="header">
         <div class="container main-nav ">
             <nav>
-                <a href="index.html" class="logo-link fond-link link">Charity Foundation «DOBROVDII»</a>
+                <a href="index.html" class="logo-link link">Charity Foundation «DOBROVDII»</a>
                 <ul class="site-nav list">
-                    <li class="item"><a href="./index-eng.html" class="header-link">About Us</a></li>
-                    <li class="item"><a href="./index-eng.html" class="header-link">Activities</a></li>
-                    <li class="item"><a href="./index-eng.html" class="header-link">News</a></li>
+                    <li class="item"><a href="#about" class="header-link">About Us</a></li>
+                    <li class="item"><a href="#events" class="header-link">Activities</a></li>
+                    <li class="item"><a href="#news" class="header-link">News</a></li>
                     <li class="item"><a href="./fond-doc-eng.html" class="header-link">Legal agreement</a></li>
-                    <li class="item"><a href="./index-eng.html" class="header-link">Contacts</a></li>
+                    <li class="item"><a href="#contacts" class="header-link">Contacts</a></li>
                 </ul>
             </nav>
-
+    
+            <button type="button" class="mobile-menu__btn" data-menu-open>
+                <svg class="mobile-menu__icon" width="40px" height="40px">
+                    <use href="./images/icons.svg#burger-menu"></use>
+                </svg>
+            </button>
+    
             <ul class="language-list list">
                 <li class="item"><a href="./index-eng.html" class="language-link">En</a></li>
-
-                <li class="item"><a href="./fond-doc.html" class="language-link">Ua</a></li>
+    
+                <li class="item"><a href="./index.html" class="language-link">Ua</a></li>
             </ul>
-        </div>
+    
+            <div class="mobile-menu" data-menu>
+                <div class="container mobile-menu__container">
+                    <button type="button" class="mobile-menu__close-btn" data-menu-close>
+                        <svg class="mobile-menu__close-icon" width="20px" height="20px">
+                            <use href="./images/icons.svg#cross"></use>
+                        </svg>
+                    </button>
+    
+                    <ul class="mobile-menu__list list">
+                        <li class="mobile-menu__item">
+                            <a href="./index-eng.html" class="mobile-menu__item--link">About Us</a>
+                        </li>
+                        <li class="mobile-menu__item">
+                            <a href="./index-eng.html" class="mobile-menu__item--link">Activities</a>
+                        </li>
+                        <li class="mobile-menu__item">
+                            <a href="./index-eng.html" class="mobile-menu__item--link">News</a>
+                        </li>
+                        <li class="mobile-menu__item">
+                            <a href="./fond-doc-eng.html" class="mobile-menu__item--link">Legal agreement</a>
+                        </li>
+                        <li class="mobile-menu__item">
+                            <a href="./index-eng.html" class="mobile-menu__item--link last-link">Contacts</a>
+                        </li>
+                    </ul>
+    
+                    <ul class="social-list list">
+                        <li class="social-list__item">
+                            <a href="#" class="social-list__link">Instagram</a>
+                        </li>
+                        <li class="social-list__item">
+                            <a href="#" class="social-list__link">Facebook</a>
+                        </li>
+                    </ul>
+    
+                </div>
+            </div>
     </header>
 
     <section class="agreements section">
@@ -185,6 +228,7 @@
         </div>
     </section>
 
+    <script src="./js/menu.js"></script>
 </body>
 
 </html>

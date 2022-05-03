@@ -54,6 +54,7 @@ body {
 .container {
   padding-left: 20px;
   padding-right: 20px;
+  overflow: auto;
 }
 
 @media screen and (min-width: 480px) {
