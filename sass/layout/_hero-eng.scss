@@ -16,6 +16,28 @@
     letter-spacing: 0.06em;
     text-transform: uppercase;
     margin-bottom: 50px;
+
+    @media screen and (min-width: 480px) {
+        margin-left: auto;
+        text-align: center;
+        width: 400px;
+        font-size: 26px;
+        margin-bottom: 150px;
+    }
+    
+    @media screen and (min-width: 768px) {
+        width: 700px;
+        font-size: 36px;
+        margin-bottom: 200px;
+    }
+    
+    @media screen and (min-width: 1200px) {
+        width: 700px;
+        font-size: 32px;
+        margin-bottom: 50px;
+        margin-left: 0;
+        text-align: left;
+    }
 }
 
 .help-btn {
@@ -24,4 +46,16 @@
     padding: 10px 40px 10px 40px;
     text-align: center;
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    @media screen and (min-width: 480px) {
+        margin: 0 auto;
+    }
+    
+    @media screen and (min-width: 768px) {
+        margin: 0 auto;
+    }
+    
+    @media screen and (min-width: 1200px) {
+        margin: 0;
+    }
 }

@@ -30,11 +30,54 @@
                 </ul>
             </nav>
 
+            <button type="button" class="mobile-menu__btn" data-menu-open>
+                <svg class="mobile-menu__icon" width="40px" height="40px">
+                    <use href="./images/icons.svg#burger-menu"></use>
+                </svg>
+            </button>
+
             <ul class="language-list list">
                 <li class="item"><a href="./index-eng.html" class="language-link">En</a></li>
 
                 <li class="item"><a href="./index.html" class="language-link">Ua</a></li>
             </ul>
+
+            <div class="mobile-menu" data-menu>
+                <div class="container mobile-menu__container">
+                    <button type="button" class="mobile-menu__close-btn" data-menu-close>
+                        <svg class="mobile-menu__close-icon" width="20px" height="20px">
+                            <use href="./images/icons.svg#cross"></use>
+                        </svg>
+                    </button>
+            
+                    <ul class="mobile-menu__list list">
+                        <li class="mobile-menu__item">
+                            <a href="./index.html" class="mobile-menu__item--link">About Us</a>
+                        </li>
+                        <li class="mobile-menu__item">
+                            <a href="./portfolio.html" class="mobile-menu__item--link">Activities</a>
+                        </li>
+                        <li class="mobile-menu__item">
+                            <a href="#" class="mobile-menu__item--link">News</a>
+                        </li>
+                        <li class="mobile-menu__item">
+                            <a href="#" class="mobile-menu__item--link">Legal agreement</a>
+                        </li>
+                        <li class="mobile-menu__item">
+                            <a href="#" class="mobile-menu__item--link last-link">Contacts</a>
+                        </li>
+                    </ul>
+            
+                    <ul class="social-list list">
+                        <li class="social-list__item">
+                            <a href="#" class="social-list__link">Instagram</a>
+                        </li>
+                        <li class="social-list__item">
+                            <a href="#" class="social-list__link">Facebook</a>
+                        </li>
+                    </ul>
+            
+                </div>
         </div>
     </header>
 
@@ -340,7 +383,8 @@
             </div>
         </div>
     </footer>
-
+    
+    <script src="./js/menu.js"></script>
 </body>
 
 </html>
